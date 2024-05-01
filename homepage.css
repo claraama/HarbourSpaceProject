@@ -1,0 +1,665 @@
+header {
+    background-color: #685DC5;
+    color: white;
+    padding: 20px; 
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.circle-button {
+    background-color: rgb(13, 87, 13);
+    color: white;
+    border: none;
+    border-radius: 50%; 
+    padding: 15px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100px; 
+    height: 100px;
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+header p {
+    margin-left: 234px;
+    margin-bottom: -45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+
+.all-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+.powered-by{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.zeptolab{
+    display: flex;
+    flex-direction: column;
+}
+
+.powered{
+    font-size: 15px;
+    color: black;
+    font-family: 'Apercu Pro', sans-serif;
+    opacity: 50%;
+}
+
+.by{
+    font-size: 18px;
+    color: black;
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: bold;
+}
+
+.right-content {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 130px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: 300px;
+}
+
+.powered-by {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 20px; 
+}
+
+.zeptolab {
+    display: flex;
+    flex-direction: column; 
+}
+
+.countdown {
+    border: 1px solid #DADADA;
+    border-radius: 5px; 
+    padding: 15px;
+    margin-bottom: 20px; 
+    text-align: center; 
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.countdown h2{
+    color: #685DC5;
+    font-size: 15px;
+    font-family: 'Apercu Pro', sans-serif; 
+    text-align: left;
+}
+
+.location h3{
+    color: #685DC5;
+    font-size: 17px;
+
+}
+
+.duration h3{
+    color: #685DC5;
+    font-size: 17px;
+}
+
+.start-date h3{
+    color: #685DC5;
+    font-size: 17px;
+}
+
+.end-date h3{
+    color: #685DC5;
+    font-size: 17px;
+}
+.details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; 
+    text-align: center; 
+}
+
+.location, .duration, .start-date, .end-date {
+    padding: 10px; 
+    border: 1px solid #e1e1e1; 
+    border-radius: 8px; 
+}
+
+
+
+.icon-title{
+    display: flex;
+    flex-direction: row;
+  
+    
+}
+
+.icon-title h1{
+    color: #685DC5;
+    font-family: 'Apercu Pro', sans-serif; 
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.image{
+    position: absolute; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 190px;
+    margin-left:  530px;
+    object-fit: cover; 
+    z-index: 1;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 200px;
+}
+
+
+.first-par{
+    font-family: 'Apercu Pro', sans-serif; 
+    font-size: 18px;
+    font-weight: 500;
+    color: #535353;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.second-par{
+    font-family: 'Apercu Pro', sans-serif; 
+    font-weight: 300;
+    color: #535353;
+    width: 300px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.third-par{
+    font-family: 'Apercu Pro', sans-serif; 
+    color: #535353;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-top: 15px;
+
+}
+
+.purple-button{
+    background-color: #685DC5;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.picture{
+   display: flex;
+}
+
+.top-image{
+    top: 0; 
+    left: 0; 
+    width: 280px; 
+    margin-top: 30px;
+    margin-left: 30px;
+   
+}
+.bottom-image{
+    position: absolute;
+    width: 350px;
+}
+
+.bottom-image {
+    z-index: -1; 
+}
+
+
+.apprenticeship{
+    max-width: 400px;
+    margin-left: 100px;
+}
+
+.apprenticeship h1{
+    color: #685DC5;
+    font-family: 'Apercu Pro', sans-serif; 
+}
+
+.apprenticeship p{
+    color: #535353;
+    font-size: 20px;
+}
+
+
+
+
+
+/* styling for third section*/
+.third-section{
+    display: flex;
+    flex-direction:row;
+    margin-top: 150px;
+    margin-left: 290px;
+}
+
+.l-content{
+    border: 1px solid #DADADA;
+    width: 300px;
+    height: 505px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.top-left{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    margin-left:40px;
+    margin-top: 35px;
+}
+
+.text{
+    color:#685DC5;
+    font-size: 16px;
+    font-family:'Apercu Pro', sans-serif ;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.bigger-money{
+    font-size: 40px;
+    font-family:'Apercu Pro', sans-serif ;
+    color:#535353;
+}
+
+.money-text{
+    font-family:'Apercu Pro', sans-serif ;
+    color:#535353;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.botom-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 180px;
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-bottom: 15px;
+}
+.second-row{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/*
+.top-left::after{
+    content: "";
+    display: block;
+    border-top: 1px solid black;
+    margin: 50px 0;
+}
+*/
+
+.line {
+    width: 27.82px;
+    height: 1px;
+    top: 89px;
+    margin-top: 10px; 
+    border-top: 1px solid #DADADA; 
+    opacity: 1; 
+}
+
+.up-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.up-content-item{
+    width: 335px;
+    height: 275px;
+    border-radius: 10px;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hours{
+    color: black;
+    font-size: 16px;
+    font-family: 'Apercu Pro', sans-serif;
+}
+.description{
+    color: #535353;
+    font-size: 16px;
+    line-height: 24px;
+
+
+}
+.line-bigger{
+    width: 240.75px;
+    height: 1px;
+    top: 1851px;
+    left: 228px;
+    border-top: 1px solid #dbd6d6;
+    opacity: 1;
+    position: absolute;
+    margin-left: 111px;
+}
+
+.middle-content{
+    display: flex;
+    align-items: center;
+    margin-left: 105px;
+    margin-top: 10px;
+}
+
+.line-left {
+    width: 307px;
+    height: 1px;
+    top: 12px;
+    border-top: 1px solid #DADADA;
+    opacity: 1;
+}
+
+.middle-text{
+    font-size: 16px;
+    font-family:'Apercu Pro', sans-serif ;
+    font-weight: bold;
+    color: #535353;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.down-content{
+    width: 767px;
+    height: 170px;
+    border-radius: 10px;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    margin-left: 100px;
+    padding: 15px;
+}
+
+/*styling for slider*/
+
+.profile-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%; 
+    overflow: hidden; 
+  }
+  
+  .profile-pic img {
+    width: 100%; 
+    height: auto;
+    display: block;
+  }
+
+.social-media-icon img{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.slider-element{
+    margin-top: 400px;
+    margin-left: 400px;
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: ffff;
+    height: 58px;
+    background-color: white;
+}
+.description-profile{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+}
+.devider{
+    display: flex;
+    flex-direction: row;
+}
+.name-applicant{
+    color: #535353;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:'Apercu Pro', sans-serif ;
+  
+}
+.age{
+    color: #535353;
+    font-size: 16px;
+    font-family:'Apercu Pro', sans-serif ;
+    margin: 0;
+}
+
+.further-description{
+    background-color: #f1f1f1;
+    height: 290px;
+}
+.p-description{
+    color: #6A6A6A;
+    font-size: 23px;
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: 300;
+    padding: 50px;
+    width: 450px;
+    margin-left: 97px;
+    margin-top: 0;
+}
+
+.job{
+    color: #535353;
+    font-size: 16px;
+    font-family:'Apercu Pro', sans-serif ;
+    margin-left: 150px;
+}
+
+.image-slider {
+    position: absolute;
+    top: -293px;
+    right: 0;
+    bottom: 0;
+    left: -159px;
+    margin-top: 190px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.faq-section{
+    margin-top:200px;
+}
+
+.header-faq-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.header-faq-section h1{
+    font-size: 30px;
+    color:#685DC5;
+    font-family: 'Apercu Pro', sans-serif;
+    margin-left: 200px;
+    
+}
+
+.filter-dropdown{
+    display: flex;
+    flex-direction: row;
+    margin-left: 900px;
+}
+
+.filter-dropdown p{
+    color:#6A6A6A;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.drop-down{
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+}
+
+
+.drop-down p{
+    color: #685DC5;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.faq-line{
+    width: 1260px;
+    height: 1px;
+    top: 12px;
+    border-top: 1px solid #DADADA;
+    opacity: 1;
+    margin-left: 180px;
+}
+
+.condition{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.left-text{
+    color: #685DC5;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 200px;
+    font-family: 'Apercu Pro', sans-serif;
+}
+
+.right-text{
+    color: #535353;
+    font-size: 20px;
+    font-family: 'Apercu Pro', sans-serif;
+   
+}
+
+.program-conditions{
+    margin-bottom: 100px;
+}
+
+.plus-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px; 
+    height: 48px;
+    border-radius: 50%; 
+    background-color: #FFFFFF; 
+    border: 2px solid #aba6a6; 
+    cursor: pointer;
+}
+
+.plus-icon {
+    color: #aba6a6; 
+    font-size: 24px; 
+    line-height: 1; 
+}
+
+.condition-detail {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+    max-height: 0; 
+    
+    margin-top: 16px;
+    padding-bottom: 30px;
+   
+    transition: max-height 0.5s ease-in-out;
+  
+}
+
+.plus-minus-btn{
+    margin-right: 450px;
+}
+
+.actual-details{
+    font-size: 22px;
+    width: 400px;
+    height: 500px;
+    
+    max-width: 700px; 
+    margin: 0 auto; 
+    white-space: pre-line;
+    font-family: 'Apercu Pro', sans-serif;
+    margin-left: 35vw;
+  padding: 0 1em;
+  opacity: 0;
+    
+}
+
